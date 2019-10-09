@@ -1,0 +1,16 @@
+{
+  "editor.tabSize": 2, // tab 键配置 2 个空格
+  "javascript.implicitProjectConfig.experimentalDecorators": true, // 支持装饰器
+  "editor.formatOnSave": true, // 允许保存时格式化文件
+  "prettier.singleQuote": true, // 使用单引号替换双引号
+  "prettier.trailingComma": "all", // 在任何可能的地方添加尾逗号
+  "prettier.eslintIntegration": true,
+  "eslint.autoFixOnSave": true,
+  "prettier.arrowParens": "always", // 箭头函数只有一个参数时，该参数自动添加括号
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ]
+}
